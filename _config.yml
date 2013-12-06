@@ -1,0 +1,6 @@
+name: Jesper.im
+description: "Posts about computers, code and anime"
+markdown: redcarpet
+pygments: true
+encoding: UTF-8
+timezone: Europe/Stockholm

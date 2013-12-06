@@ -1,0 +1,17 @@
+#startpage {
+	width: 400px;
+}
+.name {
+	font-size: 50pt;
+	font-weight: 400;
+}
+
+.links {
+
+	margin-top: 25px;
+	margin-left: 33%;
+	margin-right: auto;
+}
+.links, .links a:visited, .links a {
+	font-size: 40pt;
+}
