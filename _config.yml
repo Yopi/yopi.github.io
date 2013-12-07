@@ -1,5 +1,6 @@
 name: Jesper.im
 description: "Posts about computers, code and anime"
+url: "http://jesper.im"
 markdown: redcarpet
 pygments: true
 encoding: UTF-8
