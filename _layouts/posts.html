@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div id="home">
+	<div id="upper" >
+		<span class="name smaller-name"><a href="{{ site.baseurl }}">Jesper Bränn</a></span>
+	</div>
+	<div style="height:25px"></div>
+	{{ page.inspect }}
+	{{ content }}
+
+	{% if site.posts.size > 1 and page.title == "Blog" %}
+	<h2><a href="{{ site.prefix }}/blog/archive">Archive</a></h2>
+	{% endif %}
+</div>

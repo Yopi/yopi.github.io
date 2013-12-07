@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
+<div id="upper" >
+	<span class="name smaller-name"><a href="{{ site.baseurl }}">Jesper Bränn</a></span>
+</div>
 <div class="post">
-{{ content }}
+	<h2 class="small">{{ page.title }}</h2>
+	<p class="date">Published {{ page.date | date_to_string }}</p>
+
+	<div class="post-content">
+		{{ content }}
+	</div>
 </div>
