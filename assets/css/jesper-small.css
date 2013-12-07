@@ -1,0 +1,22 @@
+.container {
+		width: 350px;
+}
+#startpage {
+	margin-top: 75px;
+}
+.name {
+	font-size: 45pt;
+	font-weight: 400;
+}
+
+.smaller-name {
+	font-size: 25pt;
+}
+.links {
+	margin-top: 25px;
+	margin-left: 33%;
+	margin-right: auto;
+}
+.links, .links a:visited, .links a {
+	font-size: 40pt;
+}
