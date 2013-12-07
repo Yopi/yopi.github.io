@@ -1,10 +1,11 @@
 ---
 layout: posts
-title: Blog
-permalink: /blog/index.html
+title: Blog Archive
+archive: true
+permalink: /blog/archive/index.html
 ---
 
-{% for post in site.posts offset: 0 limit: 5 %}
+{% for post in site.posts %}
 	<a href="{{ site.prefix }}{{ post.url }}">
 		<div class="postsum">
 			<h2 class="small">{{ post.title }}</h2>
