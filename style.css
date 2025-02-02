@@ -1,0 +1,43 @@
+:root {
+    --text-color: #006a6a;
+    --background-color: #eeeeee;
+    --title-text-size: 18pt;
+    --text-size: 14pt;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Orbitron', monospace;
+    min-height: 100vh;
+    display: block;
+    overflow-x: hidden;
+}
+
+.ascii-header {
+    margin: 0;
+    font-size: 8pt;
+    line-height: 1;
+    white-space: pre;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+a {
+    color: var(--text-color);
+}
+
+a:visited {
+    color: var(--text-color);
+}
+
+a:hover {
+    font-weight: bold;
+}
